@@ -3,13 +3,7 @@ import torchvision
 
 
 class DenseNet121(nn.Module):
-    """Model modified.
-
-    The architecture of our model is the same as standard DenseNet121
-    except the classifier layer which has an additional sigmoid function.
-
-    """
-
+    
     def __init__(self, out_size):
         super(DenseNet121, self).__init__()
         self.densenet121 = torchvision.models.densenet121(pretrained=True)
