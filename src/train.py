@@ -14,7 +14,7 @@ from catalyst.dl.callbacks import AUCCallback, AccuracyCallback, F1ScoreCallback
 import os
 from catalyst.dl import utils
 
-os.environ["CUDA_VISIBLE_DEVICES"]="6,7"
+os.environ["CUDA_VISIBLE_DEVICES"]="0,1" #define GPUs for training
 SEED = 42
 set_global_seed(SEED) 
 prepare_cudnn(deterministic=True)
