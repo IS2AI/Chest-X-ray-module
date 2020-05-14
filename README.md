@@ -11,7 +11,7 @@ Check [requirements.txt](requirements.txt) for all packages you need.
 # training
 Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all them in the [overall](overall) directory.
 To run the training, simply run `python train.py`
-You can specify your GPUs in [train.py](train.py)
+You can specify your GPUs in [train.py](https://github.com/IS2AI/x-ray-module/blob/2d2e7ffa292638190fd73241395706a45ce8a32e/train.py#L17).
 
 After in the training ```logs``` directory will be created. The model weights can be found in ```logs/checkpoints```.
 
