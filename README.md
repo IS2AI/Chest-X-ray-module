@@ -26,7 +26,8 @@ The AUC score of the model on the test data is provided below.
 If you use this code in research, please cite the following paper:
 ```
 @misc{2003.08605,
-Author = {Kudaibergen Urinbayev and Yerassyl Orazbek and Yernur Nurambek and Almas Mirzakhmetov and Huseyin Atakan Varol},
+Author = {Kudaibergen Urinbayev and Yerassyl Orazbek and Yernur Nurambek and Almas Mirzakhmetov and 
+          Huseyin Atakan Varol},
 Title = {End-to-End Deep Diagnosis of X-ray Images},
 Year = {2020},
 Eprint = {arXiv:2003.08605},
