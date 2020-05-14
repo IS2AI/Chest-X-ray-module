@@ -13,7 +13,7 @@ Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all them 
 To run the training, simply run `python train.py`
 You can specify your GPUs in [train.py](https://github.com/IS2AI/x-ray-module/blob/2d2e7ffa292638190fd73241395706a45ce8a32e/train.py#L17).
 
-After in the training ```logs``` directory will be created. The model weights can be found in ```logs/checkpoints```.
+After in the training ```logs``` directory will be created. The model weights can be found in ```logs/experiment_name/checkpoints```.
 
 # inference
 
