@@ -1,6 +1,6 @@
 # Chest X-ray module
 
-This is the code for training the model ```Module 3``` of this [paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.08605.pdf). 
+This is the code for training the model for ```Module 3``` of this [paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.08605.pdf). 
 The paper was admitted to [EMBC 2020](https://embc.embs.org/2020/) and will be published soon.
 
 The pipeline of the system from the paper is below. ```Module 3``` is Abnormality classification. 
