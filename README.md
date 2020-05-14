@@ -20,6 +20,7 @@ After in the training ```logs``` directory will be created. The model weights ca
 The evaluation Jupyter notebooks of the model on the test and validation data will be published soon.
 
 The AUC score of the model on the test data is provided below.
+
 ![aucs](./pics/aucs.png)
 
 # Note
