@@ -19,7 +19,7 @@ SEED = 42
 set_global_seed(SEED) 
 prepare_cudnn(deterministic=True)
 num_classes = 14
-PATH_TO_IMAGES ='/raid/urinbayev/Chest_images/overall'
+PATH_TO_IMAGES ='overall'
 
 BATCH_SIZE = 64
 NUM_EPOCHS = 20
