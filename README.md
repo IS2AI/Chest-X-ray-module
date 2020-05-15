@@ -17,7 +17,7 @@ After in the training ```logs``` directory will be created. The model weights ca
 
 # inference
 
-The evaluation Jupyter notebooks of the model on the test and validation data will be published soon.
+The evaluation Jupyter notebooks of the model on the test and validation are [here](inference).
 
 The AUC score of the model on the test data is provided below.
 
