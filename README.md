@@ -10,7 +10,7 @@ The pipeline of the system from the paper is below. ```Module 3``` is Abnormalit
 ## Install
 ```pip install -r requirements.txt```
 
-## Training
+## Train
 Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all of them in the [overall](overall) directory.
 To run the training with default options, simply run `python train.py`
 #### Flags
