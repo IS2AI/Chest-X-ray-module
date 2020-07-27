@@ -43,7 +43,7 @@ The visualisation of the metrics in the pdf format will be saved in a directory 
 The AUC score of the model on the test data is provided below.
 
 ![aucs](./pics/aucs.png)
-*The training algorithm is not deterministic, which means that the results may be slitghly diffrenet even the model was trained on the same data and with the same hyperparameters.
+*The training algorithm is not deterministic, which means that the results may be slitghly diffrenet even the model was trained on the same data and with the same hyperparameters.*
 ## Note
 If you use this code in research, please cite the following paper:
 ```
