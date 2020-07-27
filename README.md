@@ -27,9 +27,9 @@ To run the training with default options, simply run `python train.py`
 After in the training ```logs``` directory will be created. The model weights can be found in ```logs/experiment_name/checkpoints```.
 
 ## Test
-Download our model to run inference  **our_model.pth**([Google Drive](https://drive.google.com/drive/folders/1sW36FwQgA2Qan5O1DVRzjh0hZ5cefG_U?usp=sharing).
+Download our model weights file to run inference ([Google Drive](https://drive.google.com/drive/folders/1sW36FwQgA2Qan5O1DVRzjh0hZ5cefG_U?usp=sharing)) and place it into [checkpoints](checkpoints).
 To run the inference on the test data with default options and our weights, simply run `python test.py`
-You can check your own model by setting a path to your .pth file by `-- checkpoint`.
+You can check your own model by setting a path to your `.pth` file by `-- checkpoint`.
 The visualisation of the metrics in the pdf format will be saved in a directory defined by `--test_outdir`.
 #### Flags
 - `--gpus`: IDs of GPUs to run inference on.
