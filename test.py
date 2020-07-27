@@ -133,7 +133,7 @@ def main():
         
         
     plt.show()
-    fig.savefig(os.path.join(args.test_outdir,'confusion_matrix1.pdf'))
+    fig.savefig(os.path.join(args.test_outdir,'confusion_matrix.pdf'))
 
     fig, axes2d = plt.subplots(nrows=2, ncols=7,
                             sharex=True, sharey=True,figsize = (12, 4))
@@ -164,7 +164,7 @@ def main():
                 cell.set_ylabel('True negative rate')
     fig.tight_layout(pad=1.0)    
     plt.show()
-    fig.savefig(os.path.join(args.test_outdir,'roc_auc1.pdf'))
+    fig.savefig(os.path.join(args.test_outdir,'roc_auc.pdf'))
 
 if __name__ == '__main__':
 
