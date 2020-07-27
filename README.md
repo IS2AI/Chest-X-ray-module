@@ -7,13 +7,17 @@ The pipeline of the system from the paper is below. ```Module 3``` is Abnormalit
 ![The pipeline](./pics/ProjectIllustration.jpg)
 
 
-# install
+# Install
 ```pip install -r requirements.txt```
 
-# training
+# Training
 Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all of them in the [overall](overall) directory.
-To run the training, simply run `python train.py`
-You can specify your GPUs in [train.py](https://github.com/IS2AI/x-ray-module/blob/2d2e7ffa292638190fd73241395706a45ce8a32e/train.py#L17).
+To run the training with default options, simply run `python train.py`
+## Flags
+- `--cfg`: Experiment configure file name
+- `--checkpoint`: Experiment checkpoint file name
+- `--sp`: Run the program using a single process. Windows users need to turn this flag on.
+- `--detector`: Detector you can use, yolo/tracker.
 
 After in the training ```logs``` directory will be created. The model weights can be found in ```logs/experiment_name/checkpoints```.
 
