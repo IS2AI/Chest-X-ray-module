@@ -13,7 +13,7 @@ The pipeline of the system from the paper is below. ```Module 3``` is Abnormalit
 # Training
 Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all of them in the [overall](overall) directory.
 To run the training with default options, simply run `python train.py`
-## Flags
+### Flags
 - `--cfg`: Experiment configure file name
 - `--checkpoint`: Experiment checkpoint file name
 - `--sp`: Run the program using a single process. Windows users need to turn this flag on.
