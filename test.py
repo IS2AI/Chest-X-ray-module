@@ -18,12 +18,6 @@ from sklearn.metrics import roc_auc_score, confusion_matrix, roc_curve, auc
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-
-
-
-
-
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpus', type=str, default='0', help='choose gpus to train on')
