@@ -28,11 +28,11 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpus', type=str, default='0', help='choose gpus to train on')
     parser.add_argument('--batch_size', type=int, default=64)
-    parser.add_argument('--path_to_images', type=str, default='/workspace/data/chest_paper/overall/images')
+    parser.add_argument('--path_to_images', type=str, default='overall')
     parser.add_argument('--test_list', type=str, default='labels/test_list.txt')
     parser.add_argument('--num_workers',type=int, default=4)
-    parser.add_argument('--checkpoint', type=str, default = '/workspace/data/chest_paper/code/logs/20200725_2/checkpoints/best.pth', help='path to checkpoint of the model')
-    parser.add_argument('--test_outdir', type=str, default = '/workspace/data/chest_paper/code/outdir', help='directory where metrics of test test will be saved')
+    parser.add_argument('--checkpoint', type=str, default = 'checkpoints')
+    parser.add_argument('--test_outdir', type=str, default = 'outdir', help='directory where metrics of test test will be saved')
     return parser.parse_args()
 
 def sigmoid(x):
