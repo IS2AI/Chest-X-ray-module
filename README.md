@@ -6,7 +6,9 @@ The paper was admitted to [EMBC 2020](https://embc.embs.org/2020/) and will be p
 The pipeline of the system from the paper is below. ```Module 3``` is Abnormality classification. The visualization was done using [Grad-Cam](https://arxiv.org/abs/1610.02391).
 ![The pipeline](./pics/ProjectIllustration.jpg)
 
-Check [requirements.txt](requirements.txt) for all packages you need.
+
+# install
+```pip install -r requirements.txt```
 
 # training
 Download [images](https://nihcc.app.box.com/v/ChestXray-NIHCC) and put all of them in the [overall](overall) directory.
