@@ -31,7 +31,7 @@ def get_args():
     parser.add_argument('--path_to_images', type=str, default='overall')
     parser.add_argument('--test_list', type=str, default='labels/test_list.txt')
     parser.add_argument('--num_workers',type=int, default=4)
-    parser.add_argument('--checkpoint', type=str, default = 'checkpoints')
+    parser.add_argument('--checkpoint', type=str, default = 'checkpoints/our_model.pth')
     parser.add_argument('--test_outdir', type=str, default = 'outdir', help='directory where metrics of test test will be saved')
     return parser.parse_args()
 
