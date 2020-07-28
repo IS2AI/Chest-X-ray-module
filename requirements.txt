@@ -1,4 +1,4 @@
-torch==1.3.0
-torchvision==0.4.1
-catalyst==19.12.1
-PIL==6.1.0
+torch=>1.3.0
+torchvision=>0.4.1
+catalyst==20.07
+PIL=>6.1.0
