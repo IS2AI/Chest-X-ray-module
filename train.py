@@ -59,7 +59,7 @@ def main():
         shuffle=True,
         num_workers=args.num_workers), 'valid': DataLoader(
         val_dataset,
-        batch_size=args.batch_size,
+        batch_size=2,
         shuffle=False,
         num_workers=args.num_workers)}
 
