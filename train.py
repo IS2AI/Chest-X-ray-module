@@ -28,13 +28,12 @@ def get_args():
     parser.add_argument('--val_list', type=str, default='labels/val_list.txt')
     return parser.parse_args()
 
-args = get_args()
 
-
-os.environ["CUDA_VISIBLE_DEVICES"] = args.gpus 
 
 
 def main():
+    args = get_args()
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpus 
     SEED = 42
     utils.set_global_seed(SEED) 
     utils.prepare_cudnn(deterministic=True)
