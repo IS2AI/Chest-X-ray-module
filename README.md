@@ -1,6 +1,6 @@
 # Chest X-ray module
 
-This is the code for training the model for ```Module 3``` of this [paper](https://arxiv.org/ftp/arxiv/papers/2003/2003.08605.pdf). 
+This is the code for training the model for ```Module 3``` of this [paper](https://github.com/IS2AI/Chest-X-ray-module/blob/master/paper_last_version.pdf). 
 The paper was admitted to [EMBC 2020](https://embc.embs.org/2020/) and was published on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9175208).
 
 The pipeline of the system from the paper is below. ```Module 3``` is Abnormality classification. The visualization was done using [Grad-Cam](https://arxiv.org/abs/1610.02391).
