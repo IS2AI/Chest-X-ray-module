@@ -29,8 +29,6 @@ def get_args():
     return parser.parse_args()
 
 
-
-
 def main():
     args = get_args()
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpus 
@@ -140,7 +138,6 @@ if __name__ == '__main__':
 
     torch.backends.cudnn.benchmark = True
     
-
     try:
         main()
     except KeyboardInterrupt:
